@@ -1,5 +1,7 @@
 #Ejercicio 012: Convertir en DIAMANTE el cubo origen 0, 0 
 
+# Introducción a la función mc.setBlock()
+
 # Conectarse a Minecraft
 from mcpi.minecraft import Minecraft
 mc = Minecraft.create()

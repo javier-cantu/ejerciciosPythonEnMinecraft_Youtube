@@ -1,12 +1,13 @@
-# Ejercicio 014 usando setVlock() Crear pixel art bloque por bloque
+# Ejercicio 014 usando setBlock() Crear pixel art bloque por bloque
+# El diagrama a seguir esta en: https://www.reddit.com/user/El_Lechon/comments/e62m9q/diagrama_de_coordenadas_para_crear_espada_con/
 
-#Connect to Minecraft
+# Connect to Minecraft
 from mcpi.minecraft import Minecraft
 mc = Minecraft.create()
-#Necesitamos importar time
+# Necesitamos importar time
 import time
 
-# IDs de los materiales para usar 
+# IDs de los materiales para usar
 # Black Wool = 35,15
 # Gray Wool = 35,7
 # Light Gray Wooll = 35,8
@@ -56,7 +57,7 @@ mc.setBlock(10, 7, 0, 35,15)
 mc.setBlock(4, 8, 0, 35,12)
 mc.setBlock(5, 8, 0, 35,1)
 mc.setBlock(6, 8, 0, 35,15)
-mc.setBlock(7, 8, 0, 35,8)
+mc.setBlock(7, 8, 0, 35,7)
 mc.setBlock(8, 8, 0, 35,7)
 mc.setBlock(9, 8, 0, 35,15)
 
@@ -70,7 +71,7 @@ mc.setBlock(8, 9, 0, 35,15)
 mc.setBlock(4, 10, 0, 35,15)
 mc.setBlock(5, 10, 0, 35,7)
 mc.setBlock(6, 10, 0, 35,15)
-mc.setBlock(7, 10, 0, 35,7)
+mc.setBlock(7, 10, 0, 35,8)
 mc.setBlock(8, 10, 0, 35)
 mc.setBlock(9, 10, 0, 35,15)
 
@@ -79,7 +80,7 @@ mc.setBlock(4, 11, 0, 35,15)
 mc.setBlock(5, 11, 0, 35,7)
 mc.setBlock(6, 11, 0, 35,15)
 mc.setBlock(7, 11, 0, 35)
-mc.setBlock(8, 11, 0, 35,7)
+mc.setBlock(8, 11, 0, 35,8)
 mc.setBlock(9, 11, 0, 35)
 mc.setBlock(10, 11, 0, 35,15)
 
@@ -87,7 +88,7 @@ mc.setBlock(10, 11, 0, 35,15)
 mc.setBlock(3, 12, 0, 35,15)
 mc.setBlock(4, 12, 0, 35,7)
 mc.setBlock(5, 12, 0, 35,15)
-mc.setBlock(7, 12, 0, 35,7)
+mc.setBlock(7, 12, 0, 35,15)
 mc.setBlock(8, 12, 0, 35)
 mc.setBlock(9, 12, 0, 35,8)
 mc.setBlock(10, 12, 0, 35)
@@ -127,9 +128,18 @@ mc.setBlock(15, 16, 0, 35,15)
 mc.setBlock(12, 17, 0, 35,15)
 mc.setBlock(13, 17, 0, 35)
 mc.setBlock(14, 17, 0, 35,8)
-mc.setBlock(15, 17, 0, 35,15)
+mc.setBlock(15, 17, 0, 35)
+mc.setBlock(16, 17, 0, 35,15)
 
 # Linea linea 15 del pixel art
 mc.setBlock(13, 18, 0, 35,15)
-mc.setBlock(14, 18, 0, 35,15)
-mc.setBlock(15, 18, 0, 35,15)
+mc.setBlock(14, 18, 0, 35)
+mc.setBlock(15, 18, 0, 35,8)
+mc.setBlock(16, 18, 0, 35,15)
+
+# Linea linea 15 del pixel art
+mc.setBlock(14, 19, 0, 35,15)
+mc.setBlock(15, 19, 0, 35,15)
+mc.setBlock(16, 19, 0, 35,15)
+
+

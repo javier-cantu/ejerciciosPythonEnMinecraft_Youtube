@@ -1,5 +1,5 @@
 # Ejercicio 014 usando setBlock() Crear pixel art bloque por bloque
-# El diagrama a seguir esta en: https://www.reddit.com/user/El_Lechon/comments/e62m9q/diagrama_de_coordenadas_para_crear_espada_con/
+# El diagrama a seguir esta en: https://i.redd.it/80b6n18ejn241.jpg
 
 # Connect to Minecraft
 from mcpi.minecraft import Minecraft

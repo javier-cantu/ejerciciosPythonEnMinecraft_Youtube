@@ -137,7 +137,7 @@ mc.setBlock(14, 18, 0, 35)
 mc.setBlock(15, 18, 0, 35,8)
 mc.setBlock(16, 18, 0, 35,15)
 
-# Linea linea 15 del pixel art
+# Linea linea 16 del pixel art
 mc.setBlock(14, 19, 0, 35,15)
 mc.setBlock(15, 19, 0, 35,15)
 mc.setBlock(16, 19, 0, 35,15)

@@ -1,4 +1,4 @@
-# Ejercicio 016_setBlocksCubosTower
+# Ejercicio 017_setBlocksCubosTower
 # Crear una torre con setclocks
 
 #Connect to Minecraft

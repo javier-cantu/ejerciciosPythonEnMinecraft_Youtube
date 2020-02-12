@@ -1,5 +1,5 @@
 # Ejercicio 016_setBlocksCubosClear
-# Crear un cubo grande con 2 coordenadas
+# Crear un cubo grande de aire con 2 coordenadas para limpiar la zona de bloques. 
 
 #Connect to Minecraft
 from mcpi.minecraft import Minecraft

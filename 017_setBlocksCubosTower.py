@@ -20,7 +20,7 @@ x2 = 20
 y2 = 12
 z2 = 20
 
-# Tipo de Bloque 0 es el ID de aire
+# Tipo de Bloque 1 es el ID de piedra
 blockType = 1
 
 # Construir el bloque usando 2 coordenadas.
@@ -40,7 +40,7 @@ x2 = 10
 y2 = 20
 z2 = 10
 
-# Tipo de Bloque 0 es el ID de aire
+# Tipo de Bloque 1 es el ID de piedra
 blockType = 1
 
 # Construir el bloque usando 2 coordenadas.
@@ -60,7 +60,7 @@ x2 = 5
 y2 = 55
 z2 = 5
 
-# Tipo de Bloque 0 es el ID de aire
+# Tipo de Bloque 1 es el ID de piedra
 blockType = 1
 
 # Construir el bloque usando 2 coordenadas.

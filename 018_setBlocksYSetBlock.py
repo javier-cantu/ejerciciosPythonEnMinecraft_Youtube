@@ -9,6 +9,13 @@ mc = Minecraft.create()
 import time
 
 
+# Materiales para usar
+# Tipo de Bloque 1 es el ID de piedra
+# Tipo de Bloque 41 es e ID del bloque de oro
+blockType = 1
+blockType2 = 41
+
+
 # BASE
 ##########################################
 # Primero  determinamos la coordenada incial
@@ -20,11 +27,6 @@ z = -20
 x2 = 20
 y2 = 12
 z2 = 20
-
-# Tipo de Bloque 1 es el ID de piedra
-# Tipo de Bloque 41 es e ID del bloque de oro
-blockType = 1
-blockType2 = 41
 
 # Construir el bloque usando 2 coordenadas.
 mc.setBlocks(x, y, z, x2, y2, z2, blockType)
@@ -50,7 +52,7 @@ x2 = 10
 y2 = 20
 z2 = 10
 
-# Tipo de Bloque 0 es el ID de aire
+# Tipo de Bloque 1 es el ID de piedra
 blockType = 1
 
 # Construir el bloque usando 2 coordenadas.
@@ -77,7 +79,7 @@ x2 = 5
 y2 = 55
 z2 = 5
 
-# Tipo de Bloque 0 es el ID de aire
+# Tipo de Bloque 1 es el ID de piedra
 blockType = 1
 
 # Construir el bloque usando 2 coordenadas.
@@ -89,4 +91,3 @@ mc.setBlock(x, y2+1, z, blockType2)
 mc.setBlock(x2, y2+1, z2, blockType2)
 mc.setBlock(x2, y2+1, z, blockType2)
 mc.setBlock(x, y2+1, z2, blockType2)
-

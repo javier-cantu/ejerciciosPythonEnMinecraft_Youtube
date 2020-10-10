@@ -1,5 +1,5 @@
 # Ejercicio 017_setBlocksCubosTower
-# Crear una torre con setclocks
+# Crear una torre con setBlocks
 
 #Connect to Minecraft
 from mcpi.minecraft import Minecraft

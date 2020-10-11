@@ -1,6 +1,6 @@
 # Ejercicio 022_BlockDirection_M
-# Donde se muestra como cambiar la orientacion de la posicion del bloque
-# Pero se puede vambiar facilmente el tipo de bloque usando la variable "blockType"
+# Donde se muestra como cambiar la orientacion del bloque
+# Pero se puede cambiar facilmente el tipo de bloque por la variable "blockType"
 
 # Connect to Minecraft
 from mcpi.minecraft import Minecraft
@@ -8,7 +8,7 @@ mc = Minecraft.create()
 
 
 
-blockType = 203
+blockType = 63
 # Varios bloques interesantes con varios valores de [data]
 # 53 = Oak Wood Stairs
 # 203 = Purpur Block
@@ -21,7 +21,7 @@ blockType = 203
 
 
 # El bloque solo con su ID sin [data] despues de la coma
-mc.setBlock(5, 4, 5, blockType) # Direccion -X o WEST
+mc.setBlock(5, 4, 5, blockType) # Direccion -X o WEST, esta es la orientacion por default
 
 # El bloque con [data] despues de la coma
 mc.setBlock(5, 4, 7, blockType,0) # Direccion -X o WEST hacia donde se pone el Sol
@@ -41,3 +41,8 @@ mc.setBlock(5, 4, 24, blockType,8)
 mc.setBlock(5, 4, 26, blockType,9)
 mc.setBlock(5, 4, 28, blockType,10)
 mc.setBlock(5, 4, 30, blockType,11)
+mc.setBlock(5, 4, 32, blockType,12)
+mc.setBlock(5, 4, 34, blockType,13)
+mc.setBlock(5, 4, 36, blockType,14)
+mc.setBlock(5, 4, 38, blockType,15)
+# El unico que llega a [15] es el Standing Sign Block 63

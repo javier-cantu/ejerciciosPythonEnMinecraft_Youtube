@@ -1,4 +1,4 @@
-# Ejercicio 021_BlockDirection
+# Ejercicio 024_BlockDirection
 # Donde se muestra como cambiar la orientacion de la posicion del bloque
 
 # Connect to Minecraft

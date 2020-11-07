@@ -1,4 +1,4 @@
-# Ejercicio 022_BlockDirection_M
+# Ejercicio 025_BlockDirection_M
 # Donde se muestra como cambiar la orientacion del bloque
 # Pero se puede cambiar facilmente el tipo de bloque por la variable "blockType"
 

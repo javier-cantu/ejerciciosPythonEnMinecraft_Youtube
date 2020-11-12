@@ -1,6 +1,7 @@
 # Ejercicio 022_Intro_BlockData
 # Donde se muestra como cambiar primero el color de wool
 # ejercicio previo a mostrar cambio de orientacion 
+# Las coordenadas son para mundo plano
 
 # Connect to Minecraft
 from mcpi.minecraft import Minecraft

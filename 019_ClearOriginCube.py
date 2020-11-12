@@ -1,12 +1,13 @@
-# Ejercicio 019 se teletransporta al origen 
+# Ejercicio 019
+# Teletransportarse al origen 
 # y se limpia un gubo gigante con setblocks
 # Este ejercicio es para un mapa DEFAULT no FLAT
 
 
-#Estas 2 lineas conectan a Minecraft con Python
+# Estas 2 lineas conectan a Minecraft con Python
 from mcpi.minecraft import Minecraft
 mc = Minecraft.create()
-#Necesitamos importar time
+# Necesitamos importar time
 import time
 
 

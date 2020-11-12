@@ -7,8 +7,15 @@ mc = Minecraft.create()
 #Necesitamos importar time
 import time
 
+# Variables de Bloques que vamos a usar
+blockType1 = 35,5   # Lana Verde
+blockType2 = 35,4   # Lana Amarilla
+blockType3 = 35,1   # Lana Naranja
+blockType4 = 35,14  # Lana Roja
 
 
+# Pausa de 1 segundos
+time.sleep(1)
 ##########################################
 # Pintar Primer chunck x+ z+
 # x inicial es 0 y z inicial 0
@@ -21,15 +28,12 @@ z = 0
 x2 = 15
 y2 = 62
 z2 = 15
-
-# Tipo de Bloque 1 es el ID de piedra
-blockType = 35,5
-
 # Construir el bloque usando 2 coordenadas.
-mc.setBlocks(x, y, z, x2, y2, z2, blockType)
+mc.setBlocks(x, y, z, x2, y2, z2, blockType1)
 
 
-
+# Pausa de 1 segundos
+time.sleep(1)
 ##########################################
 # Pintar Segundo chunck x- z+
 # x inicial es -1 y z inicial 0
@@ -42,15 +46,12 @@ z = 0
 x2 = -16
 y2 = 62
 z2 = 15
-
-# Tipo de Bloque 1 es el ID de piedra
-blockType = 35,4
-
 # Construir el bloque usando 2 coordenadas.
-mc.setBlocks(x, y, z, x2, y2, z2, blockType)
+mc.setBlocks(x, y, z, x2, y2, z2, blockType2)
 
 
-
+# Pausa de 1 segundos
+time.sleep(1)
 ##########################################
 # Pintar Tercer chunck x+ z-
 # x inicial es 0
@@ -65,15 +66,12 @@ z = -1
 x2 = 15
 y2 = 62
 z2 = -16
-
-# Tipo de Bloque 1 es el ID de piedra
-blockType = 35,1
-
 # Construir el bloque usando 2 coordenadas.
-mc.setBlocks(x, y, z, x2, y2, z2, blockType)
+mc.setBlocks(x, y, z, x2, y2, z2, blockType3)
 
 
-
+# Pausa de 1 segundos
+time.sleep(1)
 ##########################################
 # Pintar Tercer chunck x- z-
 # x inicial es -1
@@ -88,9 +86,5 @@ z = -1
 x2 = -16
 y2 = 62
 z2 = -16
-
-# Tipo de Bloque 1 es el ID de piedra
-blockType = 35,14
-
 # Construir el bloque usando 2 coordenadas.
-mc.setBlocks(x, y, z, x2, y2, z2, blockType)
+mc.setBlocks(x, y, z, x2, y2, z2, blockType4)

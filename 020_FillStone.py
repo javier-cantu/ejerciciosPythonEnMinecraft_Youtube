@@ -7,7 +7,6 @@ mc = Minecraft.create()
 #Necesitamos importar time
 import time
 
-
 ##########################################
 # Coordenada inicial la misma del ejercicio 019_ClearOriginCube.py
 # y = 20, 20 de profundidad

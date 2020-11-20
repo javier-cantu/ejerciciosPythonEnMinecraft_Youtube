@@ -10,14 +10,16 @@ mc = Minecraft.create()
 # Necesitamos importar time
 import time
 
+# Pausa inicial de 5 segundos
+time.sleep(5)
 
-#Con esta funcion se cambia la posicion del jugador en x y z
+# Con esta funcion se cambia la posicion del jugador en x y z
 # X y Z son 0
 # Y es 110 para no quedar atorado en el suelo. 
 mc.player.setTilePos(0, 110, 0)
 
 
-# Hacemos una pause de 5 segundos
+# Hacemos otra pause de 5 segundos
 time.sleep(5)
 
 

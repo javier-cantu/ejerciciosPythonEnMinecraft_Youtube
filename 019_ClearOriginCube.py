@@ -1,6 +1,6 @@
 # Ejercicio 019
 # Teletransportarse al origen 
-# y se limpia un gubo gigante con setblocks
+# y se limpia un cubo gigante con la función setblocks()
 # Este ejercicio es para un mapa DEFAULT no FLAT
 
 

@@ -1,5 +1,7 @@
 # Ejercicio 021_ChunksDirections
 # Ilustrar la direccion de cada coordenada al pintar chunks
+# Se dibujan areas de 16x16 bloques en cada dirección
+# (X+, Z+) / (X- Z+) / (X+ Z-) / (X- Z-)
 
 #Connect to Minecraft
 from mcpi.minecraft import Minecraft

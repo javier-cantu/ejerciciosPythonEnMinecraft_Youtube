@@ -16,7 +16,7 @@ y = 4
 z = 5
 
 # El bloque solo con su ID sin [data] despues de la coma
-mc.setBlock(z, y, z, 35) # Direccion -X o WEST
+mc.setBlock(x, y, z, 35) # Direccion -X o WEST
 
 # El bloque con [data] despues de la coma
 mc.setBlock(x, y, z+2, 35,0) 

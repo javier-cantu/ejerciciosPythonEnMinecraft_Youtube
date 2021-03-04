@@ -12,7 +12,7 @@ blockType = 53
 # Coordenadas iniciales
 x = 10
 y = 4
-z = 16
+z = 10
 
 # El bloque solo con su ID sin [data] despues de la coma
 mc.setBlock(x, y, z, blockType) # Direccion -X o OESTE

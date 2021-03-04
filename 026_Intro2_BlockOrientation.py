@@ -31,6 +31,7 @@ blockType = 23
 # En x +2
 x = x + 2
 # Se crean los bloques con data
+mc.setBlock(x, y, z, blockType) 
 mc.setBlock(x, y, z+2, blockType,0) 
 mc.setBlock(x, y, z+4, blockType,1) 
 mc.setBlock(x, y, z+6, blockType,2)

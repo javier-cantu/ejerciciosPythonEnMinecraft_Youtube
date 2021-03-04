@@ -16,7 +16,6 @@ z = 10
 
 # El bloque solo con su ID sin [data] despues de la coma
 mc.setBlock(x, y, z, blockType) # Direccion -X o OESTE
-
 # El bloque con [data] despues de la coma
 mc.setBlock(x, y, z+2, blockType,0) # Direccion -X o OESTE hacia donde se pone el Sol
 mc.setBlock(x, y, z+4, blockType,1) # Direccion +X o ESTE donde sale el Sol

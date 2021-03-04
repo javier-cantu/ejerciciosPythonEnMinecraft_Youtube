@@ -11,8 +11,7 @@ blockType = 53
 
 # Coordenadas iniciales
 x = 10
-# Poner atención en la altura 63 es el nivel del agua
-y = 63
+y = 4
 z = 16
 
 # El bloque solo con su ID sin [data] despues de la coma

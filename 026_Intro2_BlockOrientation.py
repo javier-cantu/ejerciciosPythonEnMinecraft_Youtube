@@ -23,7 +23,7 @@ mc = Minecraft.create()
 # Coordenadas iniciales
 x = 10
 y = 4
-z = 5
+z = 15
 
 
 # Se determina cual block ID se usara

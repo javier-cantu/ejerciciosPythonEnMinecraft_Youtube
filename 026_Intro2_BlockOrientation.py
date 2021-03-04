@@ -21,13 +21,13 @@ mc = Minecraft.create()
 #blockType = 131 # Tripwire hook
 
 # Coordenadas iniciales
-x = 10
+x = 15
 y = 4
-z = 15
+z = 10
 
 
 # Se determina cual block ID se usara
-blockType = 53
+blockType = 23
 # En x +2
 x = x + 2
 # Se crean los bloques con data

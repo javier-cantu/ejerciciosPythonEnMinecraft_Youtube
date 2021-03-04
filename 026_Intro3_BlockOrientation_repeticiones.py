@@ -33,7 +33,7 @@ blockType = blockType1
 # En x +2
 x = x + 2
 # Se crean los bloques con data
-mc.setBlock(x, y, z+2, blockType) 
+mc.setBlock(x, y, z, blockType) 
 mc.setBlock(x, y, z+2, blockType,0) 
 mc.setBlock(x, y, z+4, blockType,1) 
 mc.setBlock(x, y, z+6, blockType,2)
@@ -58,7 +58,7 @@ blockType = blockType2
 # En x +2
 x = x + 2
 # Se crean los bloques con data
-mc.setBlock(x, y, z+2, blockType) 
+mc.setBlock(x, y, z, blockType)
 mc.setBlock(x, y, z+2, blockType,0) 
 mc.setBlock(x, y, z+4, blockType,1) 
 mc.setBlock(x, y, z+6, blockType,2)
@@ -83,7 +83,7 @@ blockType = blockType3
 # En x +2
 x = x + 2
 # Se crean los bloques con data
-mc.setBlock(x, y, z+2, blockType) 
+mc.setBlock(x, y, z, blockType)
 mc.setBlock(x, y, z+2, blockType,0) 
 mc.setBlock(x, y, z+4, blockType,1) 
 mc.setBlock(x, y, z+6, blockType,2)
@@ -108,7 +108,7 @@ blockType = blockType4
 # En x +2
 x = x + 2
 # Se crean los bloques con data
-mc.setBlock(x, y, z+2, blockType) 
+mc.setBlock(x, y, z, blockType)
 mc.setBlock(x, y, z+2, blockType,0) 
 mc.setBlock(x, y, z+4, blockType,1) 
 mc.setBlock(x, y, z+6, blockType,2)
@@ -133,7 +133,7 @@ blockType = blockType5
 # En x +2
 x = x + 2
 # Se crean los bloques con data
-mc.setBlock(x, y, z+2, blockType) 
+mc.setBlock(x, y, z, blockType) 
 mc.setBlock(x, y, z+2, blockType,0) 
 mc.setBlock(x, y, z+4, blockType,1) 
 mc.setBlock(x, y, z+6, blockType,2)
@@ -158,7 +158,7 @@ blockType = blockType6
 # En x +2
 x = x + 2
 # Se crean los bloques con data
-mc.setBlock(x, y, z+2, blockType) 
+mc.setBlock(x, y, z, blockType) 
 mc.setBlock(x, y, z+2, blockType,0) 
 mc.setBlock(x, y, z+4, blockType,1) 
 mc.setBlock(x, y, z+6, blockType,2)
@@ -183,7 +183,7 @@ blockType = blockType7
 # En x +2
 x = x + 2
 # Se crean los bloques con data
-mc.setBlock(x, y, z+2, blockType) 
+mc.setBlock(x, y, z, blockType) 
 mc.setBlock(x, y, z+2, blockType,0) 
 mc.setBlock(x, y, z+4, blockType,1) 
 mc.setBlock(x, y, z+6, blockType,2)
@@ -208,7 +208,7 @@ blockType = blockType8
 # En x +2
 x = x + 2
 # Se crean los bloques con data
-mc.setBlock(x, y, z+2, blockType) 
+mc.setBlock(x, y, z, blockType) 
 mc.setBlock(x, y, z+2, blockType,0) 
 mc.setBlock(x, y, z+4, blockType,1) 
 mc.setBlock(x, y, z+6, blockType,2)
@@ -233,7 +233,7 @@ blockType = blockType9
 # En x +2
 x = x + 2
 # Se crean los bloques con data
-mc.setBlock(x, y, z+2, blockType) 
+mc.setBlock(x, y, z, blockType) 
 mc.setBlock(x, y, z+2, blockType,0) 
 mc.setBlock(x, y, z+4, blockType,1) 
 mc.setBlock(x, y, z+6, blockType,2)
@@ -258,7 +258,7 @@ blockType = blockType10
 # En x +2
 x = x + 2
 # Se crean los bloques con data
-mc.setBlock(x, y, z+2, blockType) 
+mc.setBlock(x, y, z, blockType) 
 mc.setBlock(x, y, z+2, blockType,0) 
 mc.setBlock(x, y, z+4, blockType,1) 
 mc.setBlock(x, y, z+6, blockType,2)
@@ -284,7 +284,7 @@ blockType = blockType11
 # En x +2
 x = x + 2
 # Se crean los bloques con data
-mc.setBlock(x, y, z+2, blockType) 
+mc.setBlock(x, y, z, blockType) 
 mc.setBlock(x, y, z+2, blockType,0) 
 mc.setBlock(x, y, z+4, blockType,1) 
 mc.setBlock(x, y, z+6, blockType,2)
@@ -309,7 +309,7 @@ blockType = blockType12
 # En x +2
 x = x + 2
 # Se crean los bloques con data
-mc.setBlock(x, y, z+2, blockType) 
+mc.setBlock(x, y, z, blockType) 
 mc.setBlock(x, y, z+2, blockType,0) 
 mc.setBlock(x, y, z+4, blockType,1) 
 mc.setBlock(x, y, z+6, blockType,2)

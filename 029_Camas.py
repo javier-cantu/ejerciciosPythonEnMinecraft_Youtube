@@ -1,5 +1,5 @@
-# 029_Puertas
-# Como construir puertas con Python
+# 029_Camas
+# Como construir camas con Python
 
 from mcpi.minecraft import Minecraft
 mc = Minecraft.create()

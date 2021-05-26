@@ -1,6 +1,6 @@
 # Ejercicio 031_casita_bloques_con_orientacion
 # Casa voltenado hacia el S en el mapa o sea hacia +z
-# Usando todos los bloques pero sin orientacion correcta 
+# Usando todos los bloques pero con orientacion correcta 
 # Construiremos esta casa parcialmente sin los bloques complicados
 # https://minecraft.gamepedia.com/Village/Structure/Blueprints/Plains_small_house_1_blueprint
 

@@ -1,7 +1,6 @@
 # Ejercicio 032_Casita_DebuggerIntro
 # Misma casita del ejercicio anterior
 # Pero ahora usamos el debugger de Python
-# Construiremos esta casa parcialmente sin los bloques complicados
 # https://minecraft.gamepedia.com/Village/Structure/Blueprints/Plains_small_house_1_blueprint
 
 from mcpi.minecraft import Minecraft

@@ -3,6 +3,22 @@
 # Pero ahora usamos el debugger de Python
 # https://minecraft.gamepedia.com/Village/Structure/Blueprints/Plains_small_house_1_blueprint
 
+# Como usar:
+# Primero importar el debugger con "import pdb"
+# Luego poner breakpoints con "pbd.set_trace()"
+
+# Principales comandos del Debugger
+# n = ejecuta la siguiente linea
+# c = completa la ejecución hasta el siguiente break
+# l = lista 3 lineas antes y 3 lineas despues
+# s = Pasa hasta que se manda llamar a una función
+# b = muestra lista de todos los break points
+# b[int] = Pone un break point en la linea numero [int]
+# b[func] = Pone un break en esa funcion [func]
+# cl = Borra todos los breakpoints
+# cl[int] = Borra el break point en la linea [int]
+# p = print
+
 from mcpi.minecraft import Minecraft
 mc = Minecraft.create()
 import time

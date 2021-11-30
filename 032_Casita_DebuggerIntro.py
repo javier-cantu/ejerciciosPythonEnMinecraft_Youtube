@@ -1,4 +1,5 @@
 # Ejercicio 032_Casita_DebuggerIntro
+# Video en Youtube: https://youtu.be/1N5tSNaD0as
 # Misma casita del ejercicio anterior
 # Pero ahora usamos el debugger de Python
 # https://minecraft.gamepedia.com/Village/Structure/Blueprints/Plains_small_house_1_blueprint

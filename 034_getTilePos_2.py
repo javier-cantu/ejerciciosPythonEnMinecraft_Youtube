@@ -15,6 +15,9 @@ import time
 # Se le asigna el valor del vector a la variable "pos"
 pos = mc.player.getTilePos()
 
+# Se asigna un material para el block
+blockType1 = 1
+
 # Se manda al chat el valor de "pos"
 mc.postToChat(pos)
 # Pausa de 1 segundo
@@ -32,4 +35,4 @@ zi = pos.z
 mc.postToChat("La posición del jugador es: = " + " X = " + str(xi) + "  Y = " +str(yi) + "  Z = " + str(zi))
 
 # Se construye un block en esa misma posición
-mc.setBlock(x, y, z, blockType)
+mc.setBlock(xi, yi, zi, blockType1)

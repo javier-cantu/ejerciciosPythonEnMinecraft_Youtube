@@ -1,4 +1,5 @@
-# Ejercicio 034_getTilePos_2 getTilePos obtiene la posicion del jugador, la manda al chat, y construye un bloque
+# Ejercicio 035_getTilePos_casita getTilePos obtiene la posicion del jugador
+# la manda al chat, y construye una casa
 # Video en Youtube: 
 
 # Connect to Minecraft
@@ -15,9 +16,6 @@ import time
 # Se le asigna el valor del vector a la variable "pos"
 pos = mc.player.getTilePos()
 
-# Se asigna un material para el block
-blockType1 = 1
-
 # Se manda al chat el valor de "pos"
 mc.postToChat(pos)
 # Pausa de 1 segundo
@@ -26,17 +24,18 @@ time.sleep(1)
 # Luego separamos el vector en 3 valores
 # Con pos.x se accesa al componente X del vector
 # hacemos lo mismo con cada eje y se asiga cada valor a una variable diferente
-# xi, yi, zi, representan los valores iniciales
-xi = pos.x
-yi = pos.y
-zi = pos.z
+# x, y, z, representan los valores iniciales
+x = pos.x
+y = pos.y
+z = pos.z
 
-# Se manda al chat la posicion del blocke donde estan los pies del jugador. 
-mc.postToChat("La posicion del jugador es: = " + " X = " + str(xi) + "  Y = " +str(yi) + "  Z = " + str(zi))
+# Se manda al chat la posicion del block donde estan los pies del jugador. 
+mc.postToChat("La posicion del jugador es: = " + " X = " + str(x) + "  Y = " +str(y) + "  Z = " + str(z))
+time.sleep(1)
+# Se manda al chat otro mensaje
+mc.postToChat("Ahora se construirá una casa!")
 
-
-
-
+######## Se construye la casa
 # Materiales para usar
 # A todos se les dio un nombre
 # Para no tener que usar solo numeros
@@ -50,17 +49,11 @@ glasspane = 102
 torch = 50
 
 ##########################################
-# Primero  determinamos la coordenada incial
-# Este sera nuestro punto de referencia
-x = -10
-y = 4
-z = -10
+# Las coordenadas iniciales de la casa ya se determinaron por "mc.player.getTilePos()"
 
 time.sleep(1)
 ##########################################
 # Construccion bloque por bloque
-# Tenemos que tener y ver un plano 
-# con solo la imaginacion es dificil pero posible
 
 # Capa o Nivel 1
 mc.setBlock(x+0, y, z, 41)

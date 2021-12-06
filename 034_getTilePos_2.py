@@ -1,5 +1,5 @@
 # Ejercicio 034_getTilePos_2 getTilePos obtiene la posicion del jugador, la manda al chat, y construye un bloque
-# Video en Youtube: 
+# Video en Youtube: https://youtu.be/v38Lor4GSoQ
 
 # Connect to Minecraft
 from mcpi.minecraft import Minecraft

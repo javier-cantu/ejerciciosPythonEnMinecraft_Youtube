@@ -1,5 +1,5 @@
 # Ejercicio 033_getTilePos_intro getTilePos obtiene la posicion del jugador y la manda al chat
-# Video en Youtube: 
+# Video en Youtube: https://youtu.be/v38Lor4GSoQ
 
 # Connect to Minecraft
 from mcpi.minecraft import Minecraft

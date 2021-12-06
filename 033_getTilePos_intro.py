@@ -29,4 +29,4 @@ yi = pos.y
 zi = pos.z
 
 # Se manda al chat la posicion del blocke donde estan los pies del jugador. 
-mc.postToChat("La posición del jugador es: = " + " X = " + str(xi) + "  Y = " +str(yi) + "  Z = " + str(zi))
+mc.postToChat("La posicion del jugador es: = " + " X = " + str(xi) + "  Y = " +str(yi) + "  Z = " + str(zi))

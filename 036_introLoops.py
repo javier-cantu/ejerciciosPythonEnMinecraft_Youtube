@@ -9,7 +9,7 @@ import time
 
 # Necesitamos un bloque
 # 251:14 es concreto rojo, lo que uso en eje x
-blockType = 251,15
+blockType = 251,14
 
 # Se obtiene la posicion del jugador con "getTilePos()" y se asigna a la variable "pos"
 # Se manda al char la posicion

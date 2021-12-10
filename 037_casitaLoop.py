@@ -8,16 +8,6 @@ mc = Minecraft.create()
 # importar modulo time
 import time
 
-# Se obtiene la posicion del jugador con "getTilePos()" y se asigna a la variable "pos"
-# Se manda al chat la posicion
-# Se hace una pause de 1 segundo
-pos = mc.player.getTilePos()
-mc.postToChat("Posicion inicial " + str(pos))
-
-# Se asignan a xi, yi, zi, los componentes de la posicion en cada eje. 
-xi = pos.x
-yi = pos.y
-zi = pos.z
 
 # Variables para los materiales
 cobblestone = 4
@@ -30,7 +20,7 @@ glasspane = 102
 torch = 50
 
 # Pausa
-time.sleep(1)
+time.sleep(2)
 
 
 # "for loop" que se ejecutara 20 veces

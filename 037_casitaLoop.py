@@ -1,4 +1,4 @@
-# Ejercicio 038_casitaLoop
+# Ejercicio 037_casitaLoop
 # Ejemplo de como se puede usar un loop para construir muchas casitas
 # Video en Youtube: 
 
@@ -23,10 +23,10 @@ torch = 50
 time.sleep(2)
 
 
-# "for loop" que se ejecutara 20 veces
+# "for loop" que se ejecutara 10 veces
 # Cada vez que se de una loop se construira una casita
 # Y se actualiza la posicion del jugador
-for i in range(20):
+for i in range(10):
   ##########################################
   # Primero  obtiene la posicion del jugador
   # Y se almacena en las variables x y z

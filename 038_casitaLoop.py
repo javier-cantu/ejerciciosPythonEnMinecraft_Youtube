@@ -1,5 +1,5 @@
-# Ejercicio 037_casitaLoop
-# Ejemplo de como se puede usar un loop
+# Ejercicio 038_casitaLoop
+# Ejemplo de como se puede usar un loop para construir muchas casitas
 # Video en Youtube: 
 
 # Connect to Minecraft

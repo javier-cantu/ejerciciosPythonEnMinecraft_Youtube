@@ -1,7 +1,7 @@
 # Ejercicio 038_nestedLoop
 # Introduccion a las "nested loops" o loops anidados. 
 # Nested loop = un loop dentro de otro loop. 
-# Video en Youtube: 
+# Video en Youtube: https://youtu.be/uj8Btn-Obcc
 
 # Conectar a MC e importar el modulo de tiempo. 
 from mcpi.minecraft import Minecraft

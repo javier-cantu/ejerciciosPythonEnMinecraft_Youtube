@@ -1,6 +1,6 @@
 # Ejercicio 037_casitaLoop
 # Ejemplo de como se puede usar un loop para construir muchas casitas
-# Video en Youtube: 
+# Video en Youtube: https://youtu.be/nmwprqviO7o
 
 # Connect to Minecraft
 from mcpi.minecraft import Minecraft

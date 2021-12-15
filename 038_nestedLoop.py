@@ -24,7 +24,7 @@ xi = pos.x
 yi = pos.y
 zi = pos.z
 
-# Esto es una "lested loop"
+# Esto es una "nested loop"
 # Hay un loop, dentro del primer loop. 
 # Aqui un loop pone bloque por bloque en Z
 # Y el otro loop mueve al primer loop en X

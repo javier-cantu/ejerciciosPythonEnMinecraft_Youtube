@@ -10,7 +10,7 @@ import time
 # Necesitamos un bloque
 # 251:14 es concreto rojo, lo que uso en eje x
 # 251 es concreto blanco
-blockType = 251
+blockType = 251,14
 
 # Se obtiene la posicion del jugador con "getTilePos()"
 # Y se asigna a una variable que almacenara sus 3 componentes x y z
@@ -29,15 +29,15 @@ zi = pos_inicial.z
 # Un loop dentro de otro loop dentro de otro loop
 for i in range(16):
     for j in range (16):
-        for K in range (16):
-          mc.setBlock(xi,yi-1,zi, blockType)
-          mc.postToChat("Z +1")
-          zi = zi + 1
-          time.sleep(0.05)
-    mc.postToChat("X +1")
-    xi = xi + 1
+        for k in range (16):
+            mc.setBlock(xi,yi-1,zi, blockType)
+            print("Z +1")
+            zi = zi + 1
+            time.sleep(0.1)
+        print("X +1")
+        xi = xi + 1
+        zi = pos_inicial.z # Con esto se reinicia el valor de Z
+    print("Y +1")
+    yi = yi + 1
+    xi = pos_inicial.x # Se reinicia el valor de X
     zi = pos_inicial.z # Con esto se reinicia el valor de Z
- mc.postToChat("Y +1")
- yi = yi + 1
- xi = pos_inicial.x # Se reinicia el valor de X
- zi = pos_inicial.z # Con esto se reinicia el valor de Z

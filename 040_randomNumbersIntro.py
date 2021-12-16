@@ -1,6 +1,5 @@
-lines (34 sloc) 1.21 KB
-# Ejercicio 039_nestedNestedLoop
-# Un loop dentro de un loop dentro de otro loop
+# Ejercicio 040_randomNumbersIntro
+# Introduccion a los numeros aleatorios
 # Video en Youtube: 
 
 # Nos conectamos
@@ -16,8 +15,7 @@ import random
 time.sleep(3)
 
 for i in range(10):
-    # Con la funcion "randomint()" se regresa un numero aleatorio
-    # de tipo int, entre los valores que se pongan dentro de los ()
+    # Con la funcion "randomint()" se regresa un numero aleatorio de tipo int, entre los valores que se pongan dentro de los ()
     num_random = random.randint(1, 100)
     mc.postToChat("El numero random es: " + str(num_random))
     print(num_random)

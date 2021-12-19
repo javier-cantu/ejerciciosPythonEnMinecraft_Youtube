@@ -3,6 +3,7 @@
 # Crear un terreno con "ruido"
 # en cada voxel de un area determinada por los loops 
 # Se construirá una torre de bloques con alturas aleatorias
+# Video: 
 
 from mcpi.minecraft import Minecraft
 mc = Minecraft.create()

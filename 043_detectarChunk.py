@@ -15,7 +15,8 @@ import random
 import math
 
 # Pausa antes de empezar
-time.sleep(3)
+mc.postToChat("043_detectarChunk.py")
+time.sleep(2)
 
 # Se detecta posicion del jugador
 # Se asignan a las variables xi,yi,zi
@@ -40,14 +41,6 @@ xo = xi
 zi = math.floor((zi/16))*16
 mc.postToChat(zi)
 
-
-"""
-# Altura
-# Con la funcion getHeight podemos detectar cual es el bloque mas alto
-# en esa coordenada y asi siempre se construira en la superficie y no
-# donde estemos volando
-yi = mc.getHeight(xi, zi)+1
-"""
 
 # Material
 blockType = 41
